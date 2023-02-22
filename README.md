@@ -7,7 +7,6 @@ This Jekyll site is perfect for your résumé or other timelines.
 ## you can find a demo [HERE](https://lukas-h.github.io/jekyll-timeline/)
 ## screenshots
 ![SCREENSHOT RÉSUMÉ](screenshot.png)
-![SCREENSHOT COMPOSERS](screenshot2.png)
 
 ## how to use it?
 1. Fork this repository
