@@ -1,0 +1,24 @@
+<section>
+  <div class="container row">
+    <h2 class="cv-title"><span class="black white-text">{{ site.title }}</span></h2>
+    {% assign milestones = site.milestones | sort: 'date' %}
+    {% for stone in milestones %}
+    <div class="item">
+      <i class="vertical-line"></i>
+      <h3 class="item-date">{{ stone.date | date: '%m/%Y' }}{% if stone.enddate %} - {{ stone.enddate | date: '%m/%Y' }}{% endif %}</h3>
+      <div class="card-panel">
+        <h4 class="card-title">
+          {{ stone.title }}
+        </h4>
+        <p>
+          {{ stone.content }}
+        </p>
+      </div>
+    </div>
+    {% endfor %}
+    <div class="last-item">
+        <i class="vertical-line"></i>
+    </div>
+  </div>
+</section>
+

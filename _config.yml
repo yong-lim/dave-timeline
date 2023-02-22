@@ -1,0 +1,27 @@
+---
+title: Dave Everitt
+timezone: Asai/Phnom_Penh
+collections:
+  posts:
+    title: Posts
+    output: true
+  milestones:
+    title: Milestones
+    output: false
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: milestones
+  values:
+    title: 
+    date: 2026-09-01 00:00:00 -0700
+markdown: kramdown
+highlighter: rouge
+lsi: false
+description: your resume
+baseurl: ""
+url: ""
+color: "#f2f2f2"
