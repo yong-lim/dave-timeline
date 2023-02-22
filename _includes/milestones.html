@@ -1,5 +1,9 @@
 <section>
   <div class="container row">
+    <div class="card-panel deep-orange">
+      {{ content | markdownify }}
+    </div>
+
     <h2 class="cv-title"><span class="deep-orange">{{ site.title }}</span></h2>
     {% assign milestones = site.milestones | sort: 'date' %}
     {% for stone in milestones %}
