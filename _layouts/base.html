@@ -3,9 +3,15 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-{% include head.html %}
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-<body>
-{% include milestones.html %}
-</body>
+  {% include head.html %}
+
+  <body>
+    
+    {% include milestones.html %}
+
+    {% include js.html %}
+
+  </body>
 </html>
