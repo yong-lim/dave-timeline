@@ -36,8 +36,10 @@ h1,h2,h3,h4,h5,h6 {
   bottom:0
 }
 .card-panel {
-  padding-top:5px; 
   margin-left:0.88rem;
+}
+.card-title {
+  margin-top:0;
 }
 .item .card-panel {
   margin:0;
