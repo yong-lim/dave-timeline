@@ -1,6 +1,6 @@
 <div id="backtop">&#9650;</div>
 
-<section>
+<section class="section scrollspy">
   <div class="container row">
     <div class="card-panel deep-orange">
       {{ content | markdownify }}
@@ -16,9 +16,7 @@
         <h4 class="card-title">
           {{ stone.title }}
         </h4>
-        <p>
           {{ stone.content }}
-        </p>
       </div>
     </div>
     {% endfor %}
@@ -27,5 +25,3 @@
     </div>
   </div>
 </section>
-
-
