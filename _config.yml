@@ -21,7 +21,7 @@ defaults:
 markdown: kramdown
 highlighter: rouge
 lsi: false
-description: your resume
+description: Dave's Timeline
 baseurl: ""
 url: ""
 color: "#f2f2f2"
